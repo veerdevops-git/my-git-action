@@ -1,7 +1,7 @@
 # This is a basic workflow that is manually triggered
 
 # Display name of workflow
-name: Basic Workflow
+name: This is first workflow 
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI or API.
 on:
@@ -10,9 +10,9 @@ on:
     inputs:
       name:
         # Friendly description to be shown in the UI instead of 'name'
-        description: "Person to greet"
+        description: "veeranna"
         # Default value if no value is explicitly provided
-        default: "World"
+        default: "india"
         # Input has to be provided for the workflow to run
         required: true
         # Input Type (string, choice, boolean)
@@ -20,14 +20,14 @@ on:
       city:
         description: "Favorite city"
         required: true
-        default: "Tupelo"
+        default: "Hubli"
         type: choice
         options:
-          - New York
-          - Seattle
-          - Tupelo
+          - BNG
+          - DWD
+          - Hubli 
       fav-color-blue:
-        description: "Is your favorite color blue"
+        description: "Is your favorite color red"
         required: true
         type: boolean
 
